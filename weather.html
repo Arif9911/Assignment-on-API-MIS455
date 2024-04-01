@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="weather_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="weather_script.js" defer></script>
+</head>
+<body>
+    <style type="text/css">
+        
+    </style>
+    <header style="background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;">
+        <nav>
+            <ul style="list-style-type: none;
+    margin: 0;
+    padding: 0;">
+                <li style="display: inline;
+    margin-right: 20px;"><a style="color: #fff;
+    text-decoration: none;" href="index.html">Home</a></li>
+                <li style="display: inline;
+    margin-right: 20px;"><a style="color: #fff;
+    text-decoration: none;" href="weather.html">Weather Data</a></li>
+                <li style="display: inline;
+    margin-right: 20px;"><a style="color: #fff;
+    text-decoration: none;" href="about.html">About</a></li>
+                <li style="display: inline;
+    margin-right: 20px;"><a style="color: #fff;
+    text-decoration: none;" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><br><br> <br><br><br> <br><br>
+    <main style="padding: 20px;">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button>Search</button>
+                <div class="weather loading">
+                    <h2 class="city">City Name</h2>
+                    <h2 class="temp">Degree °C</h2>
+                    <div class="flex">
+                        <img src="" alt="" class="icon" />
+                        <div class="description">description</div>
+                    </div>
+                    <div class="humidity">humidity:percent</div>
+                    <div class="wind">wind speed: number km/h</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer style="background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;">
+        <label>&copy; 2024 Country Data App</label> <br>
+        <label>Designed & Developed by S.M. Arif Mahmud ID: 1830398</label>
+    </footer>
+</body>
+</html>
