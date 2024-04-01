@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="countryInput" placeholder="Search for a country...">
+            <button onclick="searchCountry()">Search</button>
+        </div>
+
+        <div id="countryContainer" class="grid-container">
+            <!-- Country data will be displayed here -->
+        </div>
+    </main>
+
+    <div id="modal" class="modal">
+	    <div id="modal-content" class="modal-content">
+	        <!-- Modal content will be inserted here -->
+	    </div>
+	</div>
+
+
+    <footer>
+        <label>&copy; 2024 Country Data App</label> <br>
+        <label>Designed & Developed by S.M. Arif Mahmud ID: 1830398</label>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
